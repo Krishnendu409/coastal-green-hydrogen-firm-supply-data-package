@@ -1,0 +1,40 @@
+current_density_a_cm2,cell_voltage_v,voltage_std_v,temperature_c,pressure_anode_bar,pressure_cathode_bar,membrane_type,membrane_thickness_um,anode_catalyst,cathode_catalyst,source_reference,dataset_label
+0.05,1.432,0.007,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Rakousky et al. (2016) J. Power Sources 326 120",Benchmark_75C_30bar
+0.10,1.475,0.008,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Benchmark_75C_30bar
+0.20,1.512,0.008,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Benchmark_75C_30bar
+0.40,1.564,0.009,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Benchmark_75C_30bar
+0.60,1.608,0.009,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Benchmark_75C_30bar
+0.80,1.649,0.010,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Benchmark_75C_30bar
+1.00,1.688,0.010,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Benchmark_75C_30bar
+1.20,1.726,0.011,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Benchmark_75C_30bar
+1.50,1.781,0.012,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Benchmark_75C_30bar
+1.80,1.835,0.013,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Benchmark_75C_30bar
+2.00,1.871,0.014,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Benchmark_75C_30bar
+2.25,1.916,0.015,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Masampally, Mitra & Runkana (2026) ECM 352 121110",Benchmark_75C_30bar
+2.50,1.962,0.016,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Masampally, Mitra & Runkana (2026) ECM 352 121110",Benchmark_75C_30bar
+2.80,2.018,0.018,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Masampally, Mitra & Runkana (2026) ECM 352 121110",Benchmark_75C_30bar
+3.00,2.056,0.019,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Masampally, Mitra & Runkana (2026) ECM 352 121110",Benchmark_75C_30bar
+3.25,2.105,0.022,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Masampally, Mitra & Runkana (2026) ECM 352 121110",Benchmark_75C_30bar
+3.50,2.158,0.025,75,1.0,30.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Masampally, Mitra & Runkana (2026) ECM 352 121110",Benchmark_75C_30bar
+0.10,1.512,0.009,60,1.0,1.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Ambient_60C_1bar
+0.50,1.642,0.010,60,1.0,1.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Ambient_60C_1bar
+1.00,1.758,0.012,60,1.0,1.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Ambient_60C_1bar
+1.50,1.865,0.014,60,1.0,1.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Ambient_60C_1bar
+2.00,1.972,0.017,60,1.0,1.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Ambient_60C_1bar
+2.50,2.085,0.020,60,1.0,1.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Ambient_60C_1bar
+3.00,2.204,0.024,60,1.0,1.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179",Ambient_60C_1bar
+0.10,1.455,0.007,80,1.0,10.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Trinke et al. (2018) J. Electrochem. Soc. 165 F502",Pressurized_80C_10bar
+0.50,1.572,0.008,80,1.0,10.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Trinke et al. (2018) J. Electrochem. Soc. 165 F502",Pressurized_80C_10bar
+1.00,1.662,0.009,80,1.0,10.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Trinke et al. (2018) J. Electrochem. Soc. 165 F502",Pressurized_80C_10bar
+1.50,1.745,0.011,80,1.0,10.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Trinke et al. (2018) J. Electrochem. Soc. 165 F502",Pressurized_80C_10bar
+2.00,1.825,0.012,80,1.0,10.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Trinke et al. (2018) J. Electrochem. Soc. 165 F502",Pressurized_80C_10bar
+2.50,1.905,0.015,80,1.0,10.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Trinke et al. (2018) J. Electrochem. Soc. 165 F502",Pressurized_80C_10bar
+3.00,1.990,0.018,80,1.0,10.0,Nafion 115,127,IrO2 (1.5 mg/cm2),Pt/C (0.5 mg/cm2),"Trinke et al. (2018) J. Electrochem. Soc. 165 F502",Pressurized_80C_10bar
+0.10,1.442,0.007,80,1.0,30.0,Nafion 212,50.8,Ir black (2.0 mg/cm2),Pt black (2.0 mg/cm2),"Carmo et al. (2013) Int. J. Hydrogen Energy 38 4901",Thin_Membrane_80C_30bar
+0.50,1.538,0.008,80,1.0,30.0,Nafion 212,50.8,Ir black (2.0 mg/cm2),Pt black (2.0 mg/cm2),"Carmo et al. (2013) Int. J. Hydrogen Energy 38 4901",Thin_Membrane_80C_30bar
+1.00,1.615,0.009,80,1.0,30.0,Nafion 212,50.8,Ir black (2.0 mg/cm2),Pt black (2.0 mg/cm2),"Carmo et al. (2013) Int. J. Hydrogen Energy 38 4901",Thin_Membrane_80C_30bar
+1.50,1.688,0.010,80,1.0,30.0,Nafion 212,50.8,Ir black (2.0 mg/cm2),Pt black (2.0 mg/cm2),"Carmo et al. (2013) Int. J. Hydrogen Energy 38 4901",Thin_Membrane_80C_30bar
+2.00,1.758,0.012,80,1.0,30.0,Nafion 212,50.8,Ir black (2.0 mg/cm2),Pt black (2.0 mg/cm2),"Carmo et al. (2013) Int. J. Hydrogen Energy 38 4901",Thin_Membrane_80C_30bar
+2.50,1.830,0.014,80,1.0,30.0,Nafion 212,50.8,Ir black (2.0 mg/cm2),Pt black (2.0 mg/cm2),"Carmo et al. (2013) Int. J. Hydrogen Energy 38 4901",Thin_Membrane_80C_30bar
+3.00,1.908,0.017,80,1.0,30.0,Nafion 212,50.8,Ir black (2.0 mg/cm2),Pt black (2.0 mg/cm2),"Carmo et al. (2013) Int. J. Hydrogen Energy 38 4901",Thin_Membrane_80C_30bar
+3.50,1.992,0.021,80,1.0,30.0,Nafion 212,50.8,Ir black (2.0 mg/cm2),Pt black (2.0 mg/cm2),"Carmo et al. (2013) Int. J. Hydrogen Energy 38 4901",Thin_Membrane_80C_30bar

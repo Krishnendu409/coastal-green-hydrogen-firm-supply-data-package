@@ -1,0 +1,13 @@
+parameter_symbol,parameter_description,nafion_115_value,nafion_212_value,unit,calibration_literature_source,physical_interpretation
+delta_m,"Membrane dry thickness",127.0,50.8,um,"Chemours / DuPont Nafion Product Datasheets","Standard reinforced vs thin extruded perfluorosulfonic acid (PFSA) membrane"
+EW,"Equivalent weight",1100,1100,g/mol SO3H,"Bernt & Gasteiger (2016) / Carmo et al. (2013)","Grams of dry polymer per mole of sulfonic acid exchange groups"
+rho_m_dry,"Dry membrane density",1.98,1.98,g/cm3,"Zawodzinski et al. (1993) J. Electrochem. Soc.","Density of dry Nafion acid form"
+lambda_eq,"Equilibrium water uptake (liquid water at 75-80C)",21.5,21.5,mol H2O / mol SO3H,"Springer, Zawodzinski & Gottesfeld (1991)","Membrane fully hydrated in liquid water equilibration"
+sigma_m,"Proton conductivity (at 75C, fully hydrated)",0.165,0.168,S/cm,"Springer et al. (1991) / Masampally et al. (2026)","sigma_m = (0.005139*lambda - 0.00326) * exp(1268 * (1/303 - 1/(273.15+T)))"
+R_HFR,"High-Frequency Area Resistance (at 75C)",0.077,0.030,Ohm*cm2,"Bernt & Gasteiger (2016) / Trinke et al. (2018)","R_HFR = delta_m / sigma_m + R_contact"
+R_contact,"Interfacial contact resistance (PTL-catalyst)",0.025,0.025,Ohm*cm2,"Bernt & Gasteiger (2016) J. Electrochem. Soc.","Bipolar plate and porous transport layer titanium contact resistance"
+k_perm_H2,"H2 membrane permeability coefficient (at 75C)",1.85e-11,1.85e-11,mol / (cm*s*bar),"Trinke, Hanke et al. (2018) J. Electrochem. Soc.","Hydrogen gas crossover permeability through hydrated PFSA matrix"
+J_crossover_30bar,"H2 crossover flux at 30 bar cathode / 1 bar anode",4.23e-9,1.06e-8,mol / (cm2*s),"Trinke et al. (2018) / Masampally et al. (2026)","J_H2 = k_perm_H2 * (P_cat - P_anode) / delta_m"
+i_loss_crossover,"Parasitic equivalent crossover current density",0.816,2.041,mA/cm2,"Trinke et al. (2018) J. Electrochem. Soc.","i_loss = 2 * F * J_crossover (Faradaic loss to crossover)"
+safety_H2_in_O2_limit,"Explosion safety limit at low load (4 mol% LFL)",0.04,0.04,mol fraction H2 in O2,"ISO 22734:2019 PEM Hydrogen Generators","Stack must safely trip or purge if H2-in-O2 exceeds 2% (50% LFL)"
+minimum_safe_load,"Minimum allowable operating current density",0.15,0.35,A/cm2,"Masampally et al. (2026) / Trinke et al. (2018)","Lower limit set by H2 crossover dilution in anode oxygen stream at 30 bar"

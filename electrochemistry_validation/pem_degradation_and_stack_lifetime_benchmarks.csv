@@ -1,0 +1,13 @@
+parameter_category,current_density_a_cm2,operating_mode,degradation_rate_uv_per_h,expected_stack_lifetime_hours,expected_lifetime_years_at_8000h,eol_criterion,manufacturer_or_source,literature_notes
+Current_Density_Sweep,0.50,Steady-state (base-load),1.20,83333,10.42,+100 mV cell rise (or 10% V_cell rise),"Frensch et al. (2019) J. Power Sources 420 54","Lowest catalyst dissolution, low mass-transport stress"
+Current_Density_Sweep,1.00,Steady-state (base-load),1.80,55556,6.94,+100 mV cell rise,"Frensch et al. (2019) / Rakousky et al. (2016)","Nominal commercial operating baseline"
+Current_Density_Sweep,1.50,Steady-state (base-load),2.40,41667,5.21,+100 mV cell rise,"Frensch et al. (2019) / IRENA (2020)","Typical standard rating for industrial MW stacks"
+Current_Density_Sweep,2.00,Steady-state (base-load),3.60,27778,3.47,+100 mV cell rise,"Masampally, Mitra & Runkana (2026) ECM 352","Moderate interfacial bubble accumulation and thinning"
+Current_Density_Sweep,2.50,Steady-state (base-load),5.20,19231,2.40,+100 mV cell rise,"Masampally, Mitra & Runkana (2026) ECM 352","Accelerated fluoride emission rate (FER) and PTL passivation"
+Current_Density_Sweep,3.00,Steady-state (base-load),7.80,12821,1.60,+100 mV cell rise,"Masampally, Mitra & Runkana (2026) ECM 352","High local hotspot stress, two-phase bubble blocking"
+Cycling_Dynamic_Operation,1.50,Dynamic Wind/Solar Cycling (Diurnal),4.50,22222,2.78,+100 mV cell rise,"Alia et al. (2019) J. Electrochem. Soc. 166 F1164","Load transients induce Pt dissolution and redeposition in membrane"
+Cycling_Dynamic_Operation,2.50,Dynamic Wind/Solar Cycling (Aggressive),8.90,11236,1.40,+100 mV cell rise,"Weiss et al. (2021) Int. J. Hydrogen Energy 46 32342","Combined high-current stress + rapid power ramp cycling"
+Manufacturer_Benchmark,1.50-2.00,Industrial Baseload / Semi-Dynamic,1.50-2.20,60000-80000,7.50-10.00,+10% cell voltage rise,"Nel Hydrogen (M-Series / A-Series) Datasheet","Atmospheric / Pressurized PEM, IrO2/Pt on titanium PTL"
+Manufacturer_Benchmark,1.80-2.20,Industrial Grid/Renewable Responsive,1.60-2.50,60000-75000,7.50-9.38,+10% cell voltage rise,"Plug Power (GenSys / ProGen EX-425D) Datasheet","Proton exchange membrane stack with automated deionized water loop"
+Manufacturer_Benchmark,1.50-2.00,Industrial Rapid Response (10-100% in sec),1.70-2.40,60000-80000,7.50-10.00,+10% cell voltage rise,"ITM Power (2 MW Neptune / 3ME) Technical Specs","Designed for dynamic renewable coupling, titanium bipolar plates"
+Manufacturer_Benchmark,1.60-2.20,Multi-MW Utility Hydrogen Plant,1.40-2.00,80000,10.00,+10% cell voltage rise,"Siemens Energy (Silyzer 300) System Specifications","Large-scale modular multi-cell architecture, pressurized 35 bar"
