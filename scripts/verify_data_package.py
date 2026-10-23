@@ -50,7 +50,7 @@ audit_file(
 
 audit_file(
     "weather_and_resource/measured_wind_niwe_and_coastal_stations.csv",
-    ["station_id", "station_name", "mean_wind_speed_m_s", "published_cf_pct", "citation_and_document_reference"],
+    ["station_id", "station_name", "mean_wind_speed_m_s", "published_cf_pct", "citation_and_audit_notes"],
     min_rows=5
 )
 
