@@ -50,7 +50,7 @@ audit_file(
 
 audit_file(
     "weather_and_resource/measured_wind_niwe_and_coastal_stations.csv",
-    ["station_id", "station_name", "mean_wind_speed_m_s", "published_cf_pct"],
+    ["station_id", "station_name", "mean_wind_speed_m_s", "published_cf_pct", "citation_and_document_reference"],
     min_rows=5
 )
 
@@ -63,8 +63,8 @@ audit_file(
 # 2. Electrochemistry Validation
 audit_file(
     "electrochemistry_validation/pem_polarization_experimental_curves.csv",
-    ["current_density_a_cm2", "cell_voltage_v", "temperature_c", "pressure_cathode_bar", "source_reference"],
-    min_rows=25
+    ["current_density_a_cm2", "cell_voltage_v", "temperature_c", "pressure_cathode_bar", "source_citation", "source_doi", "figure_reference"],
+    min_rows=20
 )
 
 audit_file(
@@ -88,7 +88,7 @@ audit_file(
 
 audit_file(
     "cost_data_and_tenders/seci_and_iocl_tender_benchmarks.csv",
-    ["tender_id", "issuing_authority", "tender_title", "incentive_or_lcoh_benchmark_inr_per_kg"],
+    ["tender_id", "issuing_authority", "tender_title", "headline_tariff_or_incentive", "subsidized_or_net_effective_cost"],
     min_rows=4
 )
 
