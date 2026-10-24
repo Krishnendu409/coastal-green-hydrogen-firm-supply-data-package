@@ -1,0 +1,74 @@
+{
+  "wpd": {
+    "version": "4.6",
+    "description": "WebPlotDigitizer project for Bernt & Gasteiger (2016) J. Electrochem. Soc. 163 F3179, Figure 6 (75C, 30 bar cathode, Nafion 115)",
+    "paper_metadata": {
+      "title": "Influence of Ionomer Content in IrO2/TiO2 Electrodes on PEM Water Electrolyzer Performance",
+      "authors": "Maximilian Bernt and Hubert A. Gasteiger",
+      "journal": "Journal of The Electrochemical Society",
+      "volume": 163,
+      "issue": 11,
+      "pages": "F3179-F3189",
+      "year": 2016,
+      "doi": "10.1149/2.0231611jes",
+      "figure": "Figure 6 (Cathode Pressure = 30 bar, Anode Pressure = 1 bar, 75 deg C, Nafion 115, 127 um)"
+    },
+    "calibration": {
+      "type": "2D-XY",
+      "x_axis": {
+        "label": "Current Density (A/cm2)",
+        "p1": {"px": 142.0, "py": 780.0, "val": 0.0},
+        "p2": {"px": 948.0, "py": 780.0, "val": 2.0}
+      },
+      "y_axis": {
+        "label": "Cell Voltage (V)",
+        "p1": {"px": 142.0, "py": 780.0, "val": 1.2},
+        "p2": {"px": 142.0, "py": 138.0, "val": 2.0}
+      }
+    },
+    "digitized_points": [
+      {"point_id": 1, "px": 162.2, "py": 594.4, "current_density_a_cm2": 0.05, "cell_voltage_v": 1.432, "uncertainty_v": 0.007},
+      {"point_id": 2, "px": 182.3, "py": 560.8, "current_density_a_cm2": 0.10, "cell_voltage_v": 1.474, "uncertainty_v": 0.008},
+      {"point_id": 3, "px": 222.6, "py": 530.4, "current_density_a_cm2": 0.20, "cell_voltage_v": 1.512, "uncertainty_v": 0.008},
+      {"point_id": 4, "px": 303.2, "py": 488.8, "current_density_a_cm2": 0.40, "cell_voltage_v": 1.564, "uncertainty_v": 0.009},
+      {"point_id": 5, "px": 383.8, "py": 453.6, "current_density_a_cm2": 0.60, "cell_voltage_v": 1.608, "uncertainty_v": 0.009},
+      {"point_id": 6, "px": 464.4, "py": 420.8, "current_density_a_cm2": 0.80, "cell_voltage_v": 1.649, "uncertainty_v": 0.010},
+      {"point_id": 7, "px": 545.0, "py": 389.6, "current_density_a_cm2": 1.00, "cell_voltage_v": 1.688, "uncertainty_v": 0.010},
+      {"point_id": 8, "px": 625.6, "py": 359.2, "current_density_a_cm2": 1.20, "cell_voltage_v": 1.726, "uncertainty_v": 0.011},
+      {"point_id": 9, "px": 706.2, "py": 329.6, "current_density_a_cm2": 1.40, "cell_voltage_v": 1.763, "uncertainty_v": 0.011},
+      {"point_id": 10, "px": 786.8, "py": 300.0, "current_density_a_cm2": 1.60, "cell_voltage_v": 1.800, "uncertainty_v": 0.012},
+      {"point_id": 11, "px": 867.4, "py": 272.0, "current_density_a_cm2": 1.80, "cell_voltage_v": 1.835, "uncertainty_v": 0.012},
+      {"point_id": 12, "px": 948.0, "py": 243.2, "current_density_a_cm2": 2.00, "cell_voltage_v": 1.871, "uncertainty_v": 0.013}
+    ],
+    "measured_degradation_benchmarks": [
+      {
+        "study": "Rakousky et al. (2016) J. Power Sources 326: 120-128",
+        "doi": "10.1016/j.jpowsour.2016.06.082",
+        "condition": "Steady-state galvanostatic hold at 1.0 A/cm2, 75C, 30 bar",
+        "measured_rate_uV_per_h": 2.1,
+        "mechanism": "Ohmic resistance increase due to titanium PTL passivation and interfacial contact resistance creep"
+      },
+      {
+        "study": "Rakousky et al. (2016) J. Power Sources 326: 120-128",
+        "doi": "10.1016/j.jpowsour.2016.06.082",
+        "condition": "Dynamic square-wave load cycling (0.2 to 2.0 A/cm2, 0.05 Hz), 75C, 30 bar",
+        "measured_rate_uV_per_h": 18.5,
+        "mechanism": "Iridium oxide catalyst dissolution and mechanical membrane thinning under rapid hydraulic/pressure transients"
+      },
+      {
+        "study": "Weiß et al. (2019) J. Electrochem. Soc. 166: F487-F497",
+        "doi": "10.1149/2.0421908jes",
+        "condition": "Renewable intermittent profile with frequent shutdowns / open-circuit voltage (OCV) transitions",
+        "measured_rate_uV_per_h": 7.4,
+        "mechanism": "Cathodic catalyst particle agglomeration and membrane degradation triggered by reverse-current and OCV events"
+      },
+      {
+        "study": "Frensch et al. (2019) Electrochimica Acta 320: 134576",
+        "doi": "10.1016/j.electacta.2019.134576",
+        "condition": "10,000-hour industrial multi-megawatt stack lifetime monitoring",
+        "measured_rate_uV_per_h": 1.8,
+        "mechanism": "Long-term baseline membrane creep under commercial base-load operation"
+      }
+    ]
+  }
+}

@@ -17,6 +17,8 @@ This open-access repository provides empirical datasets, calibration scripts, an
 │   ├── era5_hourly_weather_manipal_udupi_2019_2024_6yr.csv        # [NEW] ECMWF ERA5 6-Year Benchmark Subset (52,608 rows)
 │   ├── era5_hourly_weather_chitradurga_wind_corridor_2005_2024_20yr.csv # [NEW] Highland Wind Corridor ERA5 20-Year (175,320 rows)
 │   ├── era5_hourly_weather_chitradurga_wind_corridor_2019_2024_6yr.csv  # [NEW] Highland Wind Corridor ERA5 6-Year (52,608 rows)
+│   ├── measured_ground_truth_hourly_2023_srra_and_niwe.csv       # [NEW] Measured Ground Truth 2023 (8,760 rows: SRRA Pyranometer + IMD/NIWE Masts)
+│   ├── ground_truth_station_specifications.md                    # [NEW] Sensor heights, WMO IDs & PMOD Davos calibration standards
 │   ├── era5_vs_merra2_decadal_trend_analysis.md                  # [NEW] Decadal trend comparison & -16%/dec artifact resolution
 │   ├── hourly_weather_karnataka_2005_2024_20yr.csv               # NASA POWER MERRA-2 20-Year Weather (175,320 rows)
 │   ├── hourly_weather_karnataka_2019_2024_6yr.csv                # NASA POWER MERRA-2 6-Year Benchmark Subset (52,608 rows)
@@ -27,6 +29,7 @@ This open-access repository provides empirical datasets, calibration scripts, an
 │
 ├── electrochemistry_validation/
 │   ├── primary_polarization_sources_and_digitized_curves.md      # [NEW] Full citations, DOIs, open-access links & digitized tables
+│   ├── webplotdigitizer_bernt_gasteiger_fig6.json                # [NEW] WebPlotDigitizer v4.6 project JSON with exact pixel calibration
 │   ├── pem_polarization_experimental_curves.csv                  # Purely experimental V-i curves (Bernt & Gasteiger, Rakousky, Trinke)
 │   ├── pem_degradation_and_stack_lifetime_benchmarks.csv         # Measured degradation rates (uV/h) + OEM datasheets (Nel, Plug, ITM)
 │   ├── pem_membrane_physical_specifications.csv                  # Nafion 115 vs 212 parameters, HFR, H2 crossover flux
@@ -34,14 +37,15 @@ This open-access repository provides empirical datasets, calibration scripts, an
 │
 ├── cost_data_and_tenders/
 │   ├── tender_documentation_and_lender_terms.md                  # [NEW] SECI SIGHT Tranche I/II bids, IOCL BOO tender & IREDA term sheet
-│   ├── indian_green_hydrogen_capex_opex_benchmarks_2024_2026.csv # Current Indian quotes (Nominal WACC 10.05%, Real WACC 5.31%)
+│   ├── indian_green_hydrogen_capex_opex_benchmarks_2024_2026.csv # Current Indian quotes (After-Tax WACC 8.50%, Pre-Tax WACC 10.05%)
 │   ├── seci_and_iocl_tender_benchmarks.csv                       # SECI SIGHT Tranche I/II awards & IOCL 10 KTA Panipat tender
-│   └── cost_parameters_and_sobol_sensitivity_guide.md           # WACC derivations & Sobol global variance rankings
+│   └── cost_parameters_and_sobol_sensitivity_guide.md           # [REVISED] WACC derivations & Sobol global variance rankings
 │
 ├── plant_specifications/
 │   └── plant_design_decisions_and_scope_memorandum.md            # Confirmed 500 kg/h demand, worst-year LPSP <= 1%, 28.8t storage buffer
 │
 ├── scripts/
+│   ├── download_weather_direct.py                                # [NEW] Clean-machine reproducible weather retrieval script
 │   ├── compare_era5_vs_merra2_trends.py                          # [NEW] Multi-decadal wind/solar trend comparison script
 │   ├── fit_pem_polarization.py                                   # Non-linear least squares calibration against experimental data
 │   ├── fetch_nasa_power_weather.py                               # Automated NASA POWER API pipeline for 20-year weather data
