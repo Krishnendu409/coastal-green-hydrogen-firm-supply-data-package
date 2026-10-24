@@ -13,35 +13,45 @@ This open-access repository provides empirical datasets, calibration scripts, an
 
 ```text
 ├── weather_and_resource/
-│   ├── hourly_weather_karnataka_2005_2024_20yr.csv       # 20-Year Hourly Weather (175,320 rows: GHI, WS10, WS50, WS100, Temp)
-│   ├── hourly_weather_karnataka_2019_2024_6yr.csv        # 6-Year Benchmark Subset (52,608 rows)
-│   ├── annual_variability_summary_2005_2024.csv          # Year-by-year P10/P50/P90 interannual metrics
-│   ├── measured_wind_niwe_and_coastal_stations.csv       # IMD 43285, NIWE WRA records & KERC commercial wind CFs
-│   ├── measured_solar_srra_ground_validation.csv         # MNRE SRRA ground pyranometer vs reanalysis bias table
-│   └── wind_shear_and_terrain_speedup_justification.md    # Boundary layer log-law & WAsP plateau speed-up physics
+│   ├── era5_hourly_weather_manipal_udupi_2005_2024_20yr.csv       # [NEW] ECMWF ERA5 20-Year Hourly Weather (175,320 rows)
+│   ├── era5_hourly_weather_manipal_udupi_2019_2024_6yr.csv        # [NEW] ECMWF ERA5 6-Year Benchmark Subset (52,608 rows)
+│   ├── era5_hourly_weather_chitradurga_wind_corridor_2005_2024_20yr.csv # [NEW] Highland Wind Corridor ERA5 20-Year (175,320 rows)
+│   ├── era5_hourly_weather_chitradurga_wind_corridor_2019_2024_6yr.csv  # [NEW] Highland Wind Corridor ERA5 6-Year (52,608 rows)
+│   ├── era5_vs_merra2_decadal_trend_analysis.md                  # [NEW] Decadal trend comparison & -16%/dec artifact resolution
+│   ├── hourly_weather_karnataka_2005_2024_20yr.csv               # NASA POWER MERRA-2 20-Year Weather (175,320 rows)
+│   ├── hourly_weather_karnataka_2019_2024_6yr.csv                # NASA POWER MERRA-2 6-Year Benchmark Subset (52,608 rows)
+│   ├── annual_variability_summary_2005_2024.csv                  # Year-by-year P10/P50/P90 interannual metrics
+│   ├── measured_wind_niwe_and_coastal_stations.csv               # IMD 43285, NIWE WRA records & KERC commercial wind CFs
+│   ├── measured_solar_srra_ground_validation.csv                 # MNRE SRRA ground pyranometer vs reanalysis bias table
+│   └── wind_shear_and_terrain_speedup_justification.md            # Boundary layer log-law & WAsP plateau speed-up physics
 │
 ├── electrochemistry_validation/
-│   ├── pem_polarization_experimental_curves.csv          # Purely experimental V-i curves (Bernt & Gasteiger, Rakousky, Trinke)
-│   ├── pem_degradation_and_stack_lifetime_benchmarks.csv # Measured degradation rates (uV/h) + OEM datasheets (Nel, Plug, ITM, Siemens)
-│   ├── pem_membrane_physical_specifications.csv          # Nafion 115 vs 212 parameters, HFR, H2 crossover flux
-│   └── pem_model_calibration_and_validation_notes.md     # First-principles DAE model calibration report (R2 = 0.999388, RMSE = 4.8 mV)
+│   ├── primary_polarization_sources_and_digitized_curves.md      # [NEW] Full citations, DOIs, open-access links & digitized tables
+│   ├── pem_polarization_experimental_curves.csv                  # Purely experimental V-i curves (Bernt & Gasteiger, Rakousky, Trinke)
+│   ├── pem_degradation_and_stack_lifetime_benchmarks.csv         # Measured degradation rates (uV/h) + OEM datasheets (Nel, Plug, ITM)
+│   ├── pem_membrane_physical_specifications.csv                  # Nafion 115 vs 212 parameters, HFR, H2 crossover flux
+│   └── pem_model_calibration_and_validation_notes.md             # First-principles DAE model calibration report (R2 = 0.9971, RMSE = 7.45 mV)
 │
 ├── cost_data_and_tenders/
+│   ├── tender_documentation_and_lender_terms.md                  # [NEW] SECI SIGHT Tranche I/II bids, IOCL BOO tender & IREDA term sheet
 │   ├── indian_green_hydrogen_capex_opex_benchmarks_2024_2026.csv # Current Indian quotes (Nominal WACC 10.05%, Real WACC 5.31%)
-│   ├── seci_and_iocl_tender_benchmarks.csv               # SECI SIGHT Tranche I/II awards & IOCL 10 KTA Panipat tender
-│   └── cost_parameters_and_sobol_sensitivity_guide.md   # WACC derivations & Sobol global variance rankings
+│   ├── seci_and_iocl_tender_benchmarks.csv                       # SECI SIGHT Tranche I/II awards & IOCL 10 KTA Panipat tender
+│   └── cost_parameters_and_sobol_sensitivity_guide.md           # WACC derivations & Sobol global variance rankings
 │
 ├── plant_specifications/
-│   └── plant_design_decisions_and_scope_memorandum.md    # Confirmed 500 kg/h demand, worst-year LPSP <= 1%, 28.8t storage buffer
+│   └── plant_design_decisions_and_scope_memorandum.md            # Confirmed 500 kg/h demand, worst-year LPSP <= 1%, 28.8t storage buffer
 │
 ├── scripts/
-│   ├── fetch_nasa_power_weather.py                       # Automated NASA POWER API pipeline for 20-year weather data
-│   ├── fit_pem_polarization.py                           # Non-linear least squares calibration against experimental data
-│   ├── verify_data_package.py                            # Automated integrity and bounds test suite
-│   └── battery_first_vs_electrolyzer_first_dispatch.py   # Comparative dispatch simulation script
+│   ├── compare_era5_vs_merra2_trends.py                          # [NEW] Multi-decadal wind/solar trend comparison script
+│   ├── fit_pem_polarization.py                                   # Non-linear least squares calibration against experimental data
+│   ├── fetch_nasa_power_weather.py                               # Automated NASA POWER API pipeline for 20-year weather data
+│   ├── verify_data_package.py                                    # Automated integrity and bounds test suite
+│   └── battery_first_vs_electrolyzer_first_dispatch.py           # Comparative dispatch simulation script
 │
-├── LICENSE                                               # MIT License
-└── README.md                                             # This repository documentation
+├── .zenodo.json                                                  # [NEW] Open-Science Zenodo metadata (DOI: 10.5281/zenodo.14025816)
+├── authorship_and_submission_memorandum.md                       # [NEW] Author roles, signed AI-assistance statement & target venue
+├── LICENSE                                                       # MIT License
+└── README.md                                                     # This repository documentation
 ```
 
 ---

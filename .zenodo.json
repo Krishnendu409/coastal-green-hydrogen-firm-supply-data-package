@@ -1,0 +1,33 @@
+{
+  "title": "Coastal Green Hydrogen Firm-Supply Data Package: Micro-Meteorological, Electrochemical & Techno-Economic Benchmark Repository (2005-2024)",
+  "upload_type": "dataset",
+  "description": "Multi-decadal hourly meteorological records (ECMWF ERA5 and NASA POWER MERRA-2, 2005-2024), digitized peer-reviewed PEM water electrolyzer experimental polarization curves (Bernt & Gasteiger, Trinke, Rakousky), and Indian tender-grounded techno-economic benchmarks for islanded hybrid wind-solar green hydrogen production and process fault diagnosis.",
+  "creators": [
+    {
+      "name": "Krishnendu",
+      "affiliation": "Department of Computer Science & Engineering, Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal, Karnataka 576104, India"
+    },
+    {
+      "name": "Aggarwal, Arav",
+      "affiliation": "Department of Civil Engineering, Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal, Karnataka 576104, India"
+    }
+  ],
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Green Hydrogen",
+    "PEM Water Electrolyzer",
+    "Hybrid Renewable Energy",
+    "ECMWF ERA5",
+    "NASA POWER",
+    "Techno-Economic Analysis",
+    "Electrochemical Polarization",
+    "Multivariate Statistical Process Monitoring"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/Krishnendu409/coastal-wind-solar-pem-h2-optimization"
+    }
+  ]
+}
