@@ -18,14 +18,14 @@ This research is developed for presentation at **CHEMIGNITE 2026 (ASPIRE 2026)**
 
 ## 2. Declaration of Generative AI and AI-Assisted Technologies
 
-The authors provide the following formal disclosure, drafted in strict compliance with the **Elsevier Publishing Ethics** and **IEEE Author Center Generative AI Guidelines**:
+The authors provide the following disclosure, formatted in full alignment with the **Elsevier Publishing Ethics** and **IEEE Author Center Generative AI Guidelines**:
 
-> **Declaration of Generative AI and AI-Assisted Technologies in the Writing Process:**  
-> *"During the preparation of this work, the authors utilized AI coding assistance tools (specifically Google Antigravity / DeepMind Advanced Agentic Coding) to assist with numerical code scaffolding, simulation pipeline vectorization, and language editing of draft manuscript text. Following the execution of these computational tools, the authors systematically reviewed, verified, and edited all generated content. The authors take full and sole intellectual responsibility for the content of the published article. The first-principles thermodynamic and electrochemical derivations, surrogate optimization formulations, multivariate fault-monitoring architectures, and empirical interpretations were entirely conceived, structured, and validated by the authors."*
+> **Declaration of Generative AI and AI-Assisted Technologies:**  
+> *"During the development of this research, the authors utilized Google Antigravity (DeepMind Advanced Agentic Coding) as an AI pair-programming assistant. The AI tool assisted extensively with numerical code scaffolding, simulation pipeline optimization (Numba DAE compilation), surrogate neural network ablation routines, multivariate PCA/EWMA benchmark scripting, literature cross-referencing, and draft text polishing. The human authors formulated the research problem, established the engineering constraints and baseline trade-offs, directed all computational sweeps, reviewed the mathematical consistency of the underlying physical equations, and take full responsibility for the manuscript's findings, interpretations, and integrity."*
 
 ---
 
-## 3. Public Open-Science Repositories & Zenodo DOI
+## 3. Public Open-Science Repositories & Zenodo Archiving Protocol
 
 To ensure $100\%$ scientific transparency, full reproducibility, and FAIR data compliance, the project is structured across two dedicated public repositories:
 
@@ -36,10 +36,10 @@ To ensure $100\%$ scientific transparency, full reproducibility, and FAIR data c
 2. **Micro-Meteorological & Empirical Benchmark Data Package:**  
    - URL: [`https://github.com/Krishnendu409/coastal-green-hydrogen-firm-supply-data-package`](https://github.com/Krishnendu409/coastal-green-hydrogen-firm-supply-data-package)
    - License: Creative Commons Attribution 4.0 International (CC-BY-4.0)
-   - Contents: 20-year hourly weather datasets (ECMWF ERA5 & NASA POWER MERRA-2), digitized experimental polarization curves from primary literature, and Indian tender-grounded techno-economic parameters.
-3. **Zenodo DOI Integration:**  
+   - Contents: 20-year hourly weather datasets (ECMWF ERA5 & NASA POWER MERRA-2), primary experimental literature polarization benchmarks, and Indian tender-grounded techno-economic parameters.
+3. **Zenodo DOI Protocol (No Pre-Emptive Citations):**  
    - Both repositories contain `.zenodo.json` files pre-configured for automated GitHub-Zenodo release archiving.
-   - Reserved Concept DOI: `10.5281/zenodo.14025816` (or dynamic per-release tag DOIs upon GitHub release creation).
+   - **Important Scientific Protocol:** No placeholder or synthetic DOI shall be cited in the manuscript text. Until the author activates the repository webhook on `zenodo.org` to mint a live resolving DOI, the codebase and data package must be cited directly via their persistent GitHub repository URLs and tagged release references (`v1.0.1`).
 
 ---
 

@@ -8,19 +8,20 @@
 ### 1.1 SECI SIGHT Scheme — Mode 1: Green Hydrogen Production (Tranche-I)
 - **Tender Reference:** RfS No. `SECI/C&P/IPP/11/2023/SIGHT/P1`
 - **Issuing Agency:** Solar Energy Corporation of India Limited (SECI), under the National Green Hydrogen Mission (NGHM), Ministry of New and Renewable Energy (MNRE).
-- **Total Awarded Capacity:** $412,000\text{ tonnes/annum (tpa)}$.
-- **Incentive Structure:** Direct production incentive over 3 commercial operating years, capped at ₹50/kg in Year 1, ₹40/kg in Year 2, and ₹30/kg in Year 3.
-- **Winning Bidders & Awarded Capacities:**
-  1. **Reliance Green Hydrogen and Green Chemicals Limited:** $90,000\text{ tpa}$ @ average requested incentive of **₹18.90/kg**.
-  2. **ACME Cleantech Solutions Private Limited:** $90,000\text{ tpa}$ @ average requested incentive of **₹30.00/kg**.
-  3. **Greenko ZeroC Private Limited:** $90,000\text{ tpa}$ @ average requested incentive of **₹30.00/kg**.
-  4. **Hygenco Green Energies (HHP Two):** $75,000\text{ tpa}$ @ average requested incentive of **₹25.00/kg**.
-  5. **Sembcorp Green Hydrogen India:** $36,000\text{ tpa}$ @ average requested incentive of **₹34.00/kg**.
-  6. **Welspun New Energy Limited:** $20,000\text{ tpa}$ @ average requested incentive of **₹20.00/kg**.
-  7. **Torrent Power Limited:** $18,000\text{ tpa}$ @ average requested incentive of **₹40.00/kg**.
-  8. **CESC Projects Limited:** $10,500\text{ tpa}$ @ average requested incentive of **₹36.00/kg**.
-  9. **UPL Limited:** $10,000\text{ tpa}$ @ average requested incentive of **₹38.00/kg**.
-- **Market Takeaway:** Average 3-year production incentive is **₹28.50/kg $\text{H}_2$**, proving that unsubsidized production costs in India range from **₹320 to ₹390/kg $\text{H}_2$**, and developers require ₹20–35/kg in bridging subsidies to compete with grey hydrogen (~₹180–220/kg).
+- **Total Awarded Capacity:** $412,000\text{ tpa}$ in Bucket I (Technology Agnostic) + $2,000\text{ tpa}$ in Bucket II (Biomass-based).
+- **Incentive Structure:** Direct 3-year production incentive capped at ₹50/kg (Yr 1), ₹40/kg (Yr 2), ₹30/kg (Yr 3).
+- **Official Winning Bidders & Awarded Capacities (from SECI Allocation Notice):**
+  1. **Reliance Green Hydrogen and Green Chemicals Limited:** $90,000\text{ tpa}$ @ **₹18.90/kg**.
+  2. **Welspun New Energy Limited:** $20,000\text{ tpa}$ @ **₹20.00/kg**.
+  3. **Hygenco (HHP Two Private Limited):** $75,130\text{ tpa}$ @ **₹25.04/kg**.
+  4. **Torrent Power Limited:** $18,000\text{ tpa}$ @ **₹28.89/kg** (official allocated bid, not the ₹40/kg cap).
+  5. **ACME Cleantech Solutions Private Limited:** $90,000\text{ tpa}$ @ **₹30.00/kg**.
+  6. **Greenko ZeroC Private Limited:** $90,000\text{ tpa}$ @ **₹30.00/kg**.
+  7. **Green Infra Wind Energy (Sembcorp):** $36,000\text{ tpa}$ @ **₹34.00/kg**.
+  8. **JSW Neo Energy Limited:** $6,500\text{ tpa}$ (Bucket I) @ **₹34.66/kg**.
+  9. **UPL Limited:** $10,100\text{ tpa}$ @ **₹0.00/kg** (secured capacity demanding zero government incentive).
+  10. **Bharat Petroleum Corporation Limited (BPCL):** $2,000\text{ tpa}$ (Bucket II) @ **₹34.50/kg**.
+- **Market Takeaway:** Capacity-weighted average 3-year incentive is **₹26.20/kg $\text{H}_2$**, proving that unsubsidized commercial green hydrogen costs in India range from **₹320 to ₹380/kg $\text{H}_2$**, and market leaders (Reliance, Welspun, Hygenco) bid aggressively at ₹18–25/kg to achieve grid parity.
 
 ---
 
